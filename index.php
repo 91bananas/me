@@ -37,7 +37,9 @@
 	    </ul>
 	  </div>
 	</section>
-	<section id="s3"></section>
+	<section id="s3">
+        BAMMMM BAM BAM!   
+    </section>
 	<section id="s4"></section>
     <div class="footer-container">
         <footer class="wrapper">
