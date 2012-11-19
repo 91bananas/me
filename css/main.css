@@ -1,0 +1,439 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:400);
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:700);
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:900);
+
+@import url(http://fonts.googleapis.com/css?family=Megrim);
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+/* ===================
+    ALL: Orange Theme
+   =================== */
+.header-container {
+  border-bottom: 20px solid #e44d26;
+}
+.footer-container,
+.main aside {
+  border-top: 20px solid #e44d26;
+}
+.header-container,
+.footer-container,
+.main aside {
+  background: #f16529;
+}
+.title {
+  color: white;
+}
+/* ==============
+    MOBILE: Menu
+   ============== */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: #e44d26;
+}
+nav a:hover,
+nav a:visited {
+  color: white;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* ==============
+    MOBILE: Main
+   ============== */
+.main {
+  padding: 30px 0;
+}
+.main article h1 {
+  font-size: 2em;
+}
+.main aside {
+  color: white;
+  padding: 0px 5% 10px;
+}
+.footer-container footer {
+  color: white;
+  padding: 20px 0;
+}
+/* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+  padding-top: 20px;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+section {
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 20px solid;
+}
+section#s1 {
+  background: #5ea771;
+  border-bottom-color: #3f744d;
+}
+section#s2 {
+  background: #671a93;
+  border-bottom-color: #360e4e;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  height: 440px;
+}
+section#s2 p.huge {
+  text-align: center;
+  color: #e6e6e6;
+  font-size: 180px;
+  margin-top: 90px;
+  font-family: 'Alegreya SC', serif;
+  text-shadow: 3px 3px 7px rgba(44, 44, 44, 0.3);
+}
+section#s2 div.doors {
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, color-stop(0.5, #8f0f0f), color-stop(0.5, #8f0f0f), color-stop(1, #dc2d4b));
+  background-size: 13%;
+  /*background-image: 
+				-moz-linear-gradient(0, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0));
+			background-image: 
+				-ms-linear-gradient(0deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%);
+			background-image: 
+				-o-linear-gradient(0, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%);
+			background-image: 
+				linear-gradient(0, 
+					rgba(255, 255, 255, 0.25) 50%, 
+					rgba(255, 255, 255, 0) 50%,
+					rgba(255, 255, 255, 0) 100%);*/
+
+}
+section#s2 div#left_door {
+  left: 0;
+  z-index: 2;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+section#s2 div#right_door {
+  left: 50%;
+  z-index: 1;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+}
+section#s2 div.navz_cont {
+  display: block;
+}
+section#s2 div.navz_cont ul.navz {
+  text-align: center;
+  display: block;
+  list-style: none;
+  margin-left: 0 !important;
+  padding: 0;
+  margin-top: 0px;
+}
+section#s2 div.navz_cont ul.navz li {
+  color: #fff;
+  font-family: Megrim;
+  font-size: 95px;
+  display: inline;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  padding: 12px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+section#s2 div.navz_cont ul.navz li:not(.navactive):hover {
+  color: #fff;
+  background: #ef9628;
+}
+section#s2 div.navz_cont ul.navz li:active {
+  color: #fff;
+}
+section#s2 div.navz_cont li.navactive {
+  color: #fff;
+  background: #ae0e21;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 0 7px 6px rgba(174, 14, 33, 0.1), 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+section#s3 {
+  height: 500px;
+}
+section#s4 {
+  height: 500px;
+}
+*:link,
+*:visited,
+*:hover,
+*:focus {
+  -webkit-transition: color 0.17s linear, background-color 0.17s linear, opacity 0.17s linear, border-color 0.17s linear;
+  transition: color 0.17s linear, background-color 0.17s linear, opacity 0.17s linear, border-color 0.17s linear;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* ====================
+      INTERMEDIATE: Menu
+     ==================== */
+  nav a {
+    float: left;
+    width: 27%;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
+  nav li:first-child a {
+    margin-left: 0;
+  }
+  nav li:last-child a {
+    margin-right: 0;
+  }
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+  nav ul li {
+    display: inline;
+  }
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+  .header-container,
+  .main aside {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+  }
+  /* ============
+      WIDE: Menu
+     ============ */
+  .title {
+    float: left;
+  }
+  nav {
+    float: right;
+    width: 38%;
+  }
+  /* ============
+      WIDE: Main
+     ============ */
+  .main article {
+    float: left;
+    width: 57%;
+  }
+  .main aside {
+    float: right;
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+      Maximal Width
+     =============== */
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+  
+    margin: 0 auto;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+.invisible {
+  visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+  
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+       * Don't show links for images, or javascript/internal links
+       */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
