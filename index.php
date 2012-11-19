@@ -40,7 +40,9 @@
 	<section id="s3">
         BAMMMM BAM BAM!   
     </section>
-	<section id="s4"></section>
+	<section id="s4">
+        SOME MORE   
+    </section>
     <div class="footer-container">
         <footer class="wrapper">
             <h3>footer</h3>
